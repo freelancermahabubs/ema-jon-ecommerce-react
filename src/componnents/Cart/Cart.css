@@ -1,0 +1,10 @@
+.cart{
+  background-color: rgba(255, 153, 0, 0.3);
+  border-radius: 8px;
+  position: sticky;
+  top: 0;
+}
+.oder-info{
+  margin-top: 15px;
+  padding-top: 12px;
+}

@@ -5,10 +5,10 @@ import logo from '../../images/logo.svg'
 const Header = () => {
   return (
   <nav className="navbar">
-  <div className="navbar-start lg:pl-12 lg:text-2xl">
+  <div className="lg:pl-12 lg:text-3xl">
  <img src={logo} alt="logo" />
   </div>
-  <div className="gap-4 lg:text-2xl lg:pr-10 text-white">
+  <div className="lg:gap-6 gap-3 lg:text-2xl font-semibold lg:pr-12 text-white">
     <a href="/order">Order</a>
     <a href="/orderreview">Order Review</a>
     <a href="/manageinventory">Manage Inventory</a>
