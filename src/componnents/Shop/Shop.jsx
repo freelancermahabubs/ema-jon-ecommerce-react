@@ -60,7 +60,7 @@ setCart(savedCart)
   };
   return (
     <div className='shop-container'>
-   <div className='grid gap-4 my-4 pl-5 lg:grid-cols-3'>
+   <div className='product-container'>
    {
       products.map(product => <Product 
       key = {product.id}
@@ -70,8 +70,8 @@ setCart(savedCart)
       /> )
     }
    </div>
-    <div>
-      <Cart cart = {cart}/>
+    <div className='col-span-1'>
+      <Cart  cart = {cart}/>
     </div>
     </div>
   );
